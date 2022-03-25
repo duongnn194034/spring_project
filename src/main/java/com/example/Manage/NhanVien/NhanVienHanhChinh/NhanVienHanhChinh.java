@@ -1,6 +1,8 @@
-package com.example.Manage;
+package com.example.Manage.NhanVien.NhanVienHanhChinh;
 
-public class NhanVienHanhChinh extends NhanVien{
+import com.example.Manage.NhanVien.NhanVien;
+
+public class NhanVienHanhChinh extends NhanVien {
     private String chucVu;
 
     public String getChucVu () {

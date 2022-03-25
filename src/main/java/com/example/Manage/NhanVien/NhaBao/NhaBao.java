@@ -1,4 +1,6 @@
-package com.example.Manage;
+package com.example.Manage.NhanVien.NhaBao;
+
+import com.example.Manage.NhanVien.NhanVien;
 
 public class NhaBao extends NhanVien {
     private int soBaiBao;

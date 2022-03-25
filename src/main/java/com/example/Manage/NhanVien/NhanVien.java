@@ -1,4 +1,6 @@
-package com.example.Manage;
+package com.example.Manage.NhanVien;
+
+import com.example.Manage.ToaBao.ToaBao;
 
 public abstract class NhanVien {
     private static int counter = 1;
