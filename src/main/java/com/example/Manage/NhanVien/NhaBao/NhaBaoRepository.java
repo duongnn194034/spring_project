@@ -11,4 +11,10 @@ public interface NhaBaoRepository extends MongoRepository<NhaBao, String> {
 
     List<NhaBao> findByName(@Param("name") String name);
 
+    @Override
+    void deleteById(String name);
+
+    @Override
+    boolean existsById(String name);
+
 }
